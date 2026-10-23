@@ -1,4 +1,3 @@
-$A^2 = \begin{pmatrix} 1 & 2 \\ 0 & 1 \end{pmatrix}$
-$A^3 = \begin{pmatrix} 1 & 3 \\ 0 & 1 \end{pmatrix}$
-$A^4 = \begin{pmatrix} 1 & 4 \\ 0 & 1 \end{pmatrix}$
-$A^n = \begin{pmatrix} 1 & n \\ 0 & 1 \end{pmatrix}$
+1. A^2 = [[1, 2], [0, 1]], A^3 = [[1, 3], [0, 1]], A^4 = [[1, 4], [0, 1]]
+2. Conjecture: A^n = [[1, n], [0, 1]]
+3. Inductive step: A^n A = [[1, n], [0, 1]] * [[1, 1], [0, 1]] = [[1, n+1], [0, 1]].

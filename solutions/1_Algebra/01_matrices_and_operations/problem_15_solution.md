@@ -1,4 +1,3 @@
-$(AB)C = \begin{pmatrix} 5 & 10 \\ -1 & -3 \end{pmatrix}$
-$A(BC) = \begin{pmatrix} 5 & 10 \\ -1 & -3 \end{pmatrix}$
-
-$(AB)C = A(BC)$, demonstrating the associative property of matrix multiplication.
+1. (AB)C = [[2, -1], [2, 1]]
+2. A(BC) = [[2, -1], [2, 1]]
+3. Results are identical, confirming that matrix multiplication is associative: (AB)C = A(BC), allowing grouping flexibility during calculations.

@@ -1,5 +1,4 @@
-$A + B = \begin{pmatrix} 5 & 0 \\ -1 & 8 \end{pmatrix}$
-$A - B = \begin{pmatrix} -3 & 4 \\ -1 & -2 \end{pmatrix}$
-$3A - 2B = \begin{pmatrix} -5 & 10 \\ -3 & -1 \end{pmatrix}$
-
-Matrix addition is possible only for matrices of the same size because corresponding entries must be added or subtracted position by position.
+1. A + B = [[5, 0], [-1, 8]]
+2. A - B = [[-3, 4], [-1, -2]]
+3. 3A - 2B = [[-5, 10], [-3, -1]]
+4. Explanation: We can add or subtract matrices only if they have the same size because addition and subtraction are performed entry-by-entry on corresponding positions.

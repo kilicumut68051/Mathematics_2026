@@ -1,10 +1,8 @@
-AB defined (2x4)
-BA undefined
-BC defined (3x2)
-CB undefined
-AC undefined
-CA defined (4x3)
-AD undefined
-DA defined (2x3)
-
-Matrix multiplication requires inner dimensions to match.
+- AB: Defined (2x4)
+- BA: Not defined
+- BC: Not defined
+- CB: Defined (4x4)
+- AC: Not defined
+- CA: Defined (4x3)
+- AD: Not defined
+- DA: Defined (2x3)

@@ -1,5 +1,4 @@
-$A^T = \begin{pmatrix} 1 & 4 \\ 2 & 5 \\ 3 & 6 \end{pmatrix}$
-$B^T = \begin{pmatrix} 1 & 2 & -1 \\ 0 & 1 & 3 \end{pmatrix}$
-$AB = \begin{pmatrix} 2 & 11 \\ 8 & 23 \end{pmatrix}$
-$(AB)^T = \begin{pmatrix} 2 & 8 \\ 11 & 23 \end{pmatrix}$
-$B^TA^T = \begin{pmatrix} 2 & 8 \\ 11 & 23 \end{pmatrix}$
+1. A^T = [[1, 4], [2, 5], [3, 6]], B^T = [[1, 2, -1], [0, 1, 3]]
+2. AB = [[9, 14], [22, 35]]
+3. (AB)^T = [[9, 22], [14, 35]]
+4. B^T A^T = [[9, 22], [14, 35]] -> (AB)^T = B^T A^T verified.

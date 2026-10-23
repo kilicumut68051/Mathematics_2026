@@ -1,3 +1,3 @@
-$R(\alpha)R(\beta) = \begin{pmatrix} \cos\alpha\cos\beta - \sin\alpha\sin\beta & -\cos\alpha\sin\beta - \sin\alpha\cos\beta \\ \sin\alpha\cos\beta + \cos\alpha\sin\beta & -\sin\alpha\sin\beta + \cos\alpha\cos\beta \end{pmatrix} = \begin{pmatrix} \cos(\alpha+\beta) & -\sin(\alpha+\beta) \\ \sin(\alpha+\beta) & \cos(\alpha+\beta) \end{pmatrix}$
-
-Geometrically, rotating by $\alpha$ followed by $\beta$ equals a single rotation by $\alpha+\beta$.
+1. R(alpha)R(beta) = [[cos(alpha)cos(beta) - sin(alpha)sin(beta), -cos(alpha)sin(beta) - sin(alpha)cos(beta)], [sin(alpha)cos(beta) + cos(alpha)sin(beta), -sin(alpha)sin(beta) + cos(alpha)cos(beta)]]
+2. Using angle-sum identities: R(alpha+beta) = [[cos(alpha+beta), -sin(alpha+beta)], [sin(alpha+beta), cos(alpha+beta)]]
+3. Geometric meaning: Composing two successive rotations by angles alpha and beta is equivalent to a single rotation by their sum alpha + beta.

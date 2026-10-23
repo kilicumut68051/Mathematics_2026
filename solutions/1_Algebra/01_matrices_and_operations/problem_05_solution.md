@@ -1,3 +1,2 @@
-$Ax = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$
-
-$4 \begin{pmatrix} 2 \\ 1 \end{pmatrix} + 2 \begin{pmatrix} -1 \\ 3 \end{pmatrix} = \begin{pmatrix} 8 \\ 4 \end{pmatrix} + \begin{pmatrix} -2 \\ 6 \end{pmatrix} = \begin{pmatrix} 6 \\ 10 \end{pmatrix}$
+1. Ax = [6, 18]
+2. Linear combination: 4 * (2, 1) + 2 * (-1, 3) = (8, 4) + (-2, 6) = (6, 18).
