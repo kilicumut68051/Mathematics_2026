@@ -1,3 +1,24 @@
+## Question
+
+For each of the following systems, perform only as much elimination as necessary to recognize its type:
+
+**System 1**
+
+$$\begin{cases} x+y=2, \\ x-y=0, \end{cases}$$
+
+**System 2**
+
+$$\begin{cases} x+y=2, \\ 2x+2y=4, \end{cases}$$
+
+**System 3**
+
+$$\begin{cases} x+y=2, \\ 2x+2y=5. \end{cases}$$
+
+For each, justify the classification: one solution, infinitely many solutions, or no solution.
+
+## Solution
+
+```text
 System 1:
 [1,  1 | 2]
 [1, -1 | 0]
@@ -27,3 +48,4 @@ R2 <- R2 - 2*R1:
 [0, 0 | 1]
 
 0 = 1 is false: no solution.
+```

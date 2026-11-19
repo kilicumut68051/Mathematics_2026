@@ -1,3 +1,18 @@
+## Question
+
+Compare the systems
+
+$$\begin{cases} x+y=2, \\ 2x-y=1, \\ 3x=3 \end{cases}$$
+
+and
+
+$$\begin{cases} x+y=2, \\ 2x-y=1, \\ 3x=3.1. \end{cases}$$
+
+Check the consistency of each system and explain why a small change in one number can change the type of the system.
+
+## Solution
+
+```text
 System A:
 [1,  1 | 2]
 [2, -1 | 1]
@@ -34,3 +49,4 @@ R3 <- R3 - R2:
 
 In A, the third equation is the sum of the first two (3x = 3).
 Changing 3 to 3.1 breaks this relation, so the third line misses the intersection point.
+```

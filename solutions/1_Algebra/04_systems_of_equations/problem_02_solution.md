@@ -1,3 +1,14 @@
+## Question
+
+Solve using Gaussian elimination:
+
+$$\begin{cases} x+y+z=6, \\ 2x-y+z=3, \\ x+2y-z=2. \end{cases}$$
+
+After solving, substitute the result into all equations and check consistency.
+
+## Solution
+
+```text
 [1,  1,  1 | 6]
 [2, -1,  1 | 3]
 [1,  2, -1 | 2]
@@ -24,3 +35,4 @@ Check:
 1 + 2 + 3 = 6
 2*1 - 2 + 3 = 3
 1 + 2*2 - 3 = 2
+```

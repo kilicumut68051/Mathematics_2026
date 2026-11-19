@@ -1,3 +1,14 @@
+## Question
+
+Solve
+
+$$\begin{cases} x+2y-z=0, \\ 2x+4y-2z=0, \\ x-y+2z=0. \end{cases}$$
+
+Give all solutions in parametric form and explain why $(0,0,0)$ always satisfies a homogeneous system.
+
+## Solution
+
+```text
 [1,  2, -1 | 0]
 [2,  4, -2 | 0]
 [1, -1,  2 | 0]
@@ -13,3 +24,4 @@ Let z = t:
 (x, y, z) = (-t, t, t), t in R
 
 (0, 0, 0) is always a solution because A * 0 = 0.
+```

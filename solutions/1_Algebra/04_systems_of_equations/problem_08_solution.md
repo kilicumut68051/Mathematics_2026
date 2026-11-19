@@ -1,3 +1,16 @@
+## Question
+
+Solve by elimination the two systems
+
+$$\begin{cases} 2x+y=5, \\ x-y=1, \end{cases}$$
+
+$$\begin{cases} 2x+y=1, \\ x-y=4. \end{cases}$$
+
+Compare the successive elimination steps. Which part of the calculation is the same in both cases, and why?
+
+## Solution
+
+```text
 System 1:
 [2,  1 | 5]
 [1, -1 | 1]
@@ -28,3 +41,4 @@ y = -7/3, x = 5/3
 
 Same in both: the row operations and the coefficient part [1, -1; 0, 3],
 because they depend only on the coefficient matrix. Only the right-hand side differs.
+```
