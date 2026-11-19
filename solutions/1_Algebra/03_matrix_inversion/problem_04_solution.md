@@ -1,4 +1,13 @@
-A = [1, 2; 3, 5]
+## Question
+
+Exercise 4. Gauss-Jordan
+
+Find A^-1 using the Gauss-Jordan method for
+A = [1, 2; 3, 5].
+Show the augmented matrix [A | I] after successive operations
+and explain why obtaining I on the left gives the inverse on the right.
+
+## Solution
 
 [1, 2 | 1, 0]
 [3, 5 | 0, 1]

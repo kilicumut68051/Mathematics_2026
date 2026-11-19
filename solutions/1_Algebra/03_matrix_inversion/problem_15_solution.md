@@ -1,4 +1,16 @@
+## Question
+
+Exercise 15. Two Methods for Solving the Same System
+
+For
 A = [2, 1; 1, 3], b = [7; 8]
+solve Ax = b in two ways:
+1. using A^-1 * b,
+2. using Gaussian elimination.
+Compare both solutions, the number of essential steps,
+and state which method was simpler in this example.
+
+## Solution
 
 Method 1 (A^-1 * b):
 det(A) = 6 - 1 = 5

@@ -1,4 +1,12 @@
-A = [1, 1, 0; 0, 1, 1; 1, 0, 1]
+## Question
+
+Exercise 5. A 3x3 Matrix
+
+Use Gauss-Jordan elimination to find the inverse of
+A = [1, 1, 0; 0, 1, 1; 1, 0, 1].
+Check the result by multiplication.
+
+## Solution
 
 [1, 1, 0 | 1, 0, 0]
 [0, 1, 1 | 0, 1, 0]
@@ -31,5 +39,6 @@ R1 <- R1 - R2:
 
 A^-1 = (1/2) * [1, -1, 1; 1, 1, -1; -1, 1, 1]
 
+Check:
 A * [1, -1, 1; 1, 1, -1; -1, 1, 1] = [2, 0, 0; 0, 2, 0; 0, 0, 2]
 So A * A^-1 = I.
